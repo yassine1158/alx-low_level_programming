@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Desciption: print all possible diffirent
- *		combiations of two digits
+ *		combiations of two digits.
  *
  * Retun: Always 0 (Success)
 */
@@ -30,7 +30,7 @@ int main(void)
 			}
 			digit2++;
 		}
-		digit1++
+		digit1++;
 	}
 	putchar('\n');
 
