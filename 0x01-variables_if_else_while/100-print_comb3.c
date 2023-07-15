@@ -2,10 +2,11 @@
 
 /**
  * main - Entry point
- * Desciption: print all possible diffirent
+ *
+ * Description: print all possible diffirent
  *		combiations of two digits.
  *
- * Retun: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
