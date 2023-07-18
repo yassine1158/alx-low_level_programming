@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _abs - function that computes the absolute
- * value of an integer 
+ * print_alphabet_x10 - function that will print the alphabet 10 times
  *
- * @n: takes in integer type input for fuction
- *
- * Return: Always 0 (success)
- */
-
-int _abs(int n)
+*/
+void print_alphabet_x10(void)
 {
-	if (n < 0)
-		n = (-1) * n;
-	return (n);
+	int line, ch;
+
+	for (line = 0; line <= 9; line++)
+	{
+		for (ch = 'a'; ch <= 'z': ch++)
+			_putchar(ch);
+		_putchar('\n');
+	}
 }
