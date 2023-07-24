@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swp_int -swps the value of two integers
+ * swap_int -sawps the value of two integers
  * using two input parameters
  *
  * @a: input parameter 1
