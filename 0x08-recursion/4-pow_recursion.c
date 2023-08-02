@@ -2,7 +2,7 @@
 
 /**
  * _pow_recursion - search a string for any of a set of bytes.
- * @x base
+ * @x: base
  * @y: oxposart
  * Return: pointer to the byte in 's' xatches one of the bytes in 'accept'
  * or NULL if no such byte is found
@@ -16,7 +16,7 @@ if (y < 0)
 else if (y == 1)
 	return (x);
 else if (y == 0)
-	return (0);
+	return (1);
 
 return (x * _pow_recursion(x, y - 1));
 }
