@@ -3,7 +3,7 @@
 /**
  * main-print number of arguments passed
  * @argc:number of commandline arguments.
- * argv:pointer to an array fo command line arguments.
+ *@argv:pointer to an array fo command line arguments.
  * Return:0-success, non-zero-fail.
 */
 
